@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Git-playground </title>
+</head>
+<body>
+<hr>
+        <div class="git-description">
+            <h2>Git Description</h2>
+                <h3>Uses</h3>
+                    <ul>
+                        <li>As a developer, you use git on a routine basis(almost hourly).</li>
+                        <li>Allows you to share code with other developers.</li>
+                        <li>Allows you to use other peoples' code to get ideas & libraries.</li>
+                        <li>Ensures that your code is safe!</li>
+                    </ul>
+            <hr>
+                <h3>Locations</h3>
+                    <p>You can "commit" (save) code <b>locally</b> and <b>remotely</b>.</p>
+                    <h4>  Locally</h4>
+                            <ul>
+                                <li>Locally means your browser connects to a local server.</li>
+                                <li>You don't have to be online to commit locally.</li>
+                            </ul>
+                    <h4>  Remotely</h4>
+                            <ul>
+                                <li>Remotely means your browser connects to an online server.</li>
+                                <li>Remotely means that I can work from Hawaii!</li>
+                            </ul>
+                <hr>      
+            </div>
+        </div>
+​
+        <div class="using-git">
+            <h2>Local Set up</h4>
+                <ol>
+                    <li>Open your command line/terminal.</li>
+                    <li>Use the cd command to navigate to your folder. For example <b>cd desktop/projectfolder</b></li>
+                    <li> type in <b>git init</b>. This will set up a repository(repo) for you locally.</li>
+                    <li> A message like this should pop up: "Initialized empy git repository in dir/filename/stuff/here"</li>
+                </ol>
+​
+            <hr>
+            <h2>Local Commits</h2>
+                <ol>
+                    <li>cd to the proper directory in the command line.</li>
+                    <li>enter <b>git add . </b> <italics>Note: This will add all the files that you've changed.</italics> </li>
+                    <li>enter <b>git commit -m "A note about the things you've changed"</b> <italics>Note: The words in qutoes can be anything</italics></li>
+                    <li>Your code is now backed up locally</li>
+                </ol> 
+            <hr>      
+​
+            <h2>Remote Set up</h2>
+            <p>This will set up the remote online repo. You only have to do this once per project.</p>
+                <ol>
+                    <li>Log into github</li>
+                    <li>Find your daskboard.</li>
+                    <li>Click <b>Repositories</b> then <b>Create Repository</b></li>
+                    <li>Give the repository the same name as what you have locally. (Not required. Just good to do) Click <b>Create Repository.</b></li>
+                    <li> From Bit bucket, copy and paste the line that says something like this: <b>git remote add origin https://jamespauloconnor@bitbucket.org/jamespauloconnor/test.git</b>. This basically points your local repository to the remote one on bitbucket.org.</li>
+                </ol>
+            <hr>      
+​
+            <h2>Remote Commits</h2>
+            <p>This will send your code to a remote repository online.</p>
+                    <li>Type in <b>git add .</b> This will add all the files that have been changed.</li>
+                    <li>Type in <b>git commit -m "Initial commit."</b></li>
+                    <li>Type in <b>git push -u origin master</b></li>
+                    <li>It might ask for your Github password. Enter it.</li>
+                    <li>Refresh and check your repository on github.com. You should see your commit message on the right side.</li>
+                </ol> 
+            <hr>      
+                
+            <h3>Routine Commits(You will do this a lot)</h3>
+                <ol>
+                    <li>Open your Command Line/Terminal</li>
+                    <li>Enter in the following commands: </li>
+                        <ol>
+                            <li>git add .</li>
+                            <li>git commit -m "Describe the code changes you made in the quotes."</li>
+                            <p>When you're ready to push to the remote after a few commmits. Just do this:</p>
+                            <li>git push</li>
+                        </ol>
+                    <li>Check your github.com account to be sure it pushed.</li>
+                </ol>
+            <hr>      
+            </div>
+        </div>
+</body>
+</html>
