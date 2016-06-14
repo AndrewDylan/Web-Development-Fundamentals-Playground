@@ -1,0 +1,8 @@
+body {
+	font-family: Arial;
+	background-image: url("../Img/greenbackground.jpg");
+	background-repeat: no-repeat;
+	background-position: top right;
+	background-position: fixed;
+	background-size: 100% 100%;
+}
