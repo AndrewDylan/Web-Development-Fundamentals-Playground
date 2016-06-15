@@ -42,7 +42,166 @@ body {
 	background-size: 100% 100%;
 }
 
-#navbar {
+/* CSS for Index.html */
+/* Navigation bar */
+
+.navbar {
+	list-style-type: none;
+	margin: 10%;
+	margin-top: 0;
+	padding: 0;
+	overflow: hidden;
 	background-image: url("../Img/bamboodiv.jpg");
-	border: 5px solid green;
+	background-position: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
 }
+
+.navbar li {
+	float: left;
+}
+.navbar ol {
+	list-style-type: none;
+}
+
+.navbar li a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	background-color:green;
+	margin: 4px;
+}
+
+.navbar li a:hover{
+	background-color: blue;
+}
+.face {
+  border-right: 50px solid transparent;
+  border-bottom: 50px solid yellow;
+  border-left: 50px solid yellow;
+  border-top: 50px solid yellow;
+  margin: 0px 0px 0px 0px;
+  position: absolute;
+  border-radius: 90px;
+}
+
+.eyeball {
+  position: absolute;
+  background-color: black;
+  width: 20px;
+  height: 20px;
+  border-radius: 90px;
+  margin: -40px 0px 0px -10px;
+}
+
+.pupil {
+  position: absolute;
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 90px;
+  margin: -32px 0px 0px -2px;
+}
+
+.ghost {
+  postion: fixed;
+  background-color: transparent;
+  border-top: 40px solid blue;
+  border-right: 0px solid transparent;
+  border-left: 80px solid transparent;
+  border-bottom: 40px solid transparent;
+  border-radius: 90px;
+  margin: 0px 1100px 0px 150px;
+  
+  
+}
+
+.square {
+  postion: fixed;
+  background-color: transparent;
+  border-top: 40px solid blue;
+  border-right: 40px solid blue;
+  border-left: 40px solid blue;
+  border-bottom: 80px solid bluet;
+  margin: 0px 1200px 0px -80px;
+  }
+
+#peye {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 90px;
+  background-color: black;
+  margin: -65px 0px 0px -68px;
+}
+
+#paceye {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 90px;
+  background-color: black;
+  margin: -65px 0px 0px -35px;
+}
+#ppupil {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 90px;
+  background-color: white;
+  margin: -60px 0px 0px -60px;
+}
+#pacpupil {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 90px;
+  background-color: white;
+  margin: -60px 0px 0px -28px;
+}
+
+.project-box-1 {
+	height: 300px;
+	background-color: red;
+	padding: 3px;
+}
+
+.project-box-2 {
+	height: 300px;
+	background-color: purple;
+	border-color: black;
+}
+
+.portfolio-box-1 {
+	height: 300px;
+	background-color: blue;
+	border: 5px solid black;
+}
+.portfolio-box-2 {
+	height: 300px;
+	background-color: green;
+	border: 5px solid black;
+}
+.portfolio-box-3 {
+	height: 300px;
+	background-color: yellow;
+	border: 5px solid black;
+}
+.portfolio-box-4 {
+	height: 300px;
+	background-color: red;
+	border: 5px solid black;
+}
+.portfolio-box-5 {
+	height: 300px;
+	background-color: orange;
+	border: 5px solid black;
+}
+.portfolio-box-6 {
+	height: 300px;
+	background-color: purple;
+	border: 5px solid black;
+}
+
