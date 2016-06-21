@@ -59,6 +59,7 @@ body {
 
 .navbar li {
 	float: left;
+	list-style-type: none;
 }
 .navbar ol {
 	list-style-type: none;
@@ -70,7 +71,7 @@ body {
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
-	background-color:green;
+	background-color: green;
 	margin: 4px;
 }
 
@@ -203,5 +204,9 @@ body {
 	height: 300px;
 	background-color: purple;
 	border: 5px solid black;
+}
+
+#my-age {
+	color: green;
 }
 

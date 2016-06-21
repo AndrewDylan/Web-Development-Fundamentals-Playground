@@ -2,20 +2,57 @@
 <html>
 <head>
 	<title> Javascript Playground </title>
-	<link rel="stylesheet" type="text/css" href="CSS/CSS-playground.css">
+	<link rel="stylesheet" type="text/css" href="../CSS/CSS-playground.css">
 </head>
 <body>
 	<div class="navbar">
 		<h1>Javascript Playground </h1>
 		<ul>
 			<li> <a href="../Index.html"> Home </a></li>
-			<li> <a href="Views/html-playground.html"> HTML </a></li>
-			<li> <a href="Views/CSS-playground.html">CSS </a></li>
-			<li> <a href="Views/Bootstrap-playground.html"> Bootstrap </a></li>
-			<li> <a href="Views/Javascript-playground.html"> JavaScript </a></li>
-			<li> <a href="Views/jQuery-playground.html"> jQuery </a></li>
-			<li> <a href="Views/Resources-playground.html"> Resources </a></li>
+			<li> <a href="html-playground.html"> HTML </a></li>
+			<li> <a href="CSS-playground.html">CSS </a></li>
+			<li> <a href="Bootstrap-playground.html"> Bootstrap </a></li>
+			<li> <a href="Javascript-playground.html"> JavaScript </a></li>
+			<li> <a href="jQuery-playground.html"> jQuery </a></li>
+			<li> <a href="Resources-playground.html"> Resources </a></li>
+			<li> <a href="Git-playground.html"> Git </a></li>
 		</ul>
 	</div>
+
+	<h1> JavaScript Items </h1>
+
+	<h2> Age </h2>
+		<p>I am <a id="my-age"></a> years old.</p>
+		<P> I was born in <a id="my-birth-year"></a></p>
+		<p> I will graduate in <a id="graduation-year"></a></p>
+		<p> I have <a id="siblings"></a> sibling.</p>
+
+		<p><a id="magic-number"></a></p>
+		<button onclick="revealMagicNumber()">My magic number!</button>
+
+	<!-- Two truths one line game -->
+	<h2> Two Truths oen Line </h2>
+	<p><a id="own-cat"></a></p>
+		<button onclick="revealTruth()">I own a cat</button>
+	<p><a id="two-siblings"></a></p>
+		<button onclick="revealTruthSibling()">I have 2 siblings</button>
+	<p><a id="own-truck"></a></p>
+		<button onclick="revealLie()">I own a truck</button>
+	<!-- Music Questions -->
+	<h2> Questions </h2>
+		<p> Guess my favorite song </p>
+			<p><a id="best-song"></a></p>
+			<button onclick="bestSong()">Answer</button>
+		<p> Guess the worst song </p>
+			<p><a id="worst-song"></a></p>
+			<button onclick="worstSong()"> Answer</button>
+		<p> Guess the worst band </p>
+			<p><a id="favorite-band"></a></p>
+			<button onclick="favoriteBand()"> Answer </button>
+
+
+
+
+	<script type="text/javascript" language="javascript" src="../JS/scripts.js"></script>
 </body>
 </html>
